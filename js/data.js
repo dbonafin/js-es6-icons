@@ -1,4 +1,4 @@
-[
+const icons = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -115,12 +115,23 @@
 
 
 // Milestone 1
-// Partendo dalla struttura dati fornita, visualizzare in pagina un box per ogni icona, in cui è presente il nome dell'icona e l'icona stessa.
+// Partendo dalla struttura dati fornita, visualizzare in pagina un box per ogni icona
+// In cui è presente il nome dell'icona e l'icona stessa.
 
+// Utilizzare "forEach" per l'array "icons", dove ogni singolo elemento sta per ogni singola icona
+// Il nome dell'icona è già presente nella key "name"
+// L'icona va assemblata, facendo la somma di "family" + spazio + "prefix" + "name" (ad es. fas fa-dog)
 
 // Milestone 2
 // Ciascuna icona ha una proprietà "color": utilizzare questa proprietà per visualizzare le icone del colore corrispondente.
+// Il colore blue sta alla categoria user
+// Il colore orange sta alla categoria animal
+// Il colore green sta alla categoria vegetable
 
 
 // Milestone 3
-// Aggiungere alla pagina una select in cui le options corrispondono ai vari tipi di icone (animal, vegetable, user). Quando l'utente seleziona un tipo dalla select, visualizzare solamente le icone corrispondenti.
+// Aggiungere alla pagina una select in cui le options corrispondono ai vari tipi di icone (animal, vegetable, user). 
+// Quando l'utente seleziona un tipo dalla select, visualizzare solamente le icone corrispondenti.
+// Al click sullo specifico value della lista di opzioni
+// visualizzare solo gli elementi che corrispondono al colore di quella categoria (vedi milestone 2)
+
