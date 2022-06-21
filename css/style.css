@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+#icons-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#icons-container li {
+    list-style-type: none;
+}
+
+.header-top {
+    background-color: white;
+}
+
+h1 {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.header-bottom {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-bottom nav {
+    padding: 1rem 0;
+}
